@@ -23,8 +23,8 @@ class ProxyImage implements Image{
     public void display(){
         if(realimg==null){
             realimg=new RealImage(filename);
-            realimg.display();
         }
+         realimg.display();
     }
 }
 public class ProxyPattern{
