@@ -37,7 +37,7 @@ class RemoteControl{
         command.execute();
     }
 }
-public class CommonPattern {
+public class CommondPattern {
     public static void main(String args[]){
         Light light=new Light();
         Command lightOn=new LightOnCommand(light);
